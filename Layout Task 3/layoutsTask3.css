@@ -1,0 +1,33 @@
+#nav-bar {
+    background-color: #aed9e0; /* Light blue */
+    height: 10vh;
+  }
+  
+  #middle-section {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #left-section {
+    background-color: #86b3cc; /* Medium blue */
+    width: 40vh;
+    height: 78vh;
+  }
+  
+  #mid-section {
+    background-color: #5c92b3; /* Darker blue */
+    width: 100vh;
+    height: 78vh;
+  }
+  
+  #right-section {
+    background-color: #0b3246; /* Medium blue */
+    width: 40vh;
+    height: 78vh;
+  }
+  
+  #foot-bar {
+    background-color: #405d74; /* Darkest blue */
+    height: 10vh;
+  }
+  

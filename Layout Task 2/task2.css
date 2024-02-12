@@ -1,0 +1,13 @@
+.fcontainer{
+    background-color: darkblue;
+    
+    width: 2984px;
+    height: 150px
+}
+
+.fitem{
+    background-color: blue;
+    padding: 50px;
+    width: 50px;
+    height: 1325px;
+}

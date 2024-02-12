@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outer and Inner Box</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh; /* Set the height of the body to full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff; /* Set the background color of the body to white */
+        }
+
+        .outer-box {
+            width: 50%; /* Set the width of the outer box to 50% of the viewport width */
+            padding-top: 25%; /* Set the padding-top to maintain aspect ratio (50% of the width) */
+            border: 2px solid #000; /* Add a border for better visibility */
+            position: relative;
+            background-color: #000; /* Set the background color of the outer box to white */
+        }
+
+        .inner-box {
+            width: 50%; /* Set the width of the inner box to 50% of the outer box */
+            padding-top: 50%; /* Set the padding-top to maintain aspect ratio (50% of the width) */
+            background-color: #000; /* Set the background color of the inner box to black */
+            position: absolute;
+            top: 0; /* Position the inner box at the top-left corner of the outer box */
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Outer box containing the inner box -->
+    <div class="outer-box">
+        <!-- Inner box with black background -->
+        <div class="inner-box"></div>
+    </div>
+</body>
+</html>

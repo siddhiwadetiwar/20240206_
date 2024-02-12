@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Top Blue Line */
+        .top-line {
+            height: 150px; /* Adjust the height of the top blue line as needed */
+            background: linear-gradient(to right, rgb(2, 2, 151), #005792); /* Gradient for different shades of blue */
+        }
+
+        /* Divided Area */
+        .divided-area {
+            flex-grow: 1; /* Allows the divided area to expand and take the remaining space */
+            display: flex;
+        }
+
+        /* Left Part (1/3) */
+        .left-part {
+            flex: 1; /* Takes 1/3 of the divided area */
+            background: #14057a; /* Background color for the left part */
+        }
+
+        /* Right Part (2/3) */
+        .right-part {
+            flex: 2; /* Takes 2/3 of the divided area */
+            background: #4e94ee; /* Background color for the right part */
+        }
+
+        /* Bottom Blue Line */
+        .bottom-line {
+            height: 150px; /* Adjust the height of the bottom blue line as needed */
+            background: linear-gradient(to right, #064f70, #0d4875); /* Gradient for different shades of blue */
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Blue Line -->
+    <div class="top-line"></div>
+
+    <!-- Divided Area -->
+    <div class="divided-area">
+        <!-- Left Part (1/3) -->
+        <div class="left-part"></div>
+        <!-- Right Part (2/3) -->
+        <div class="right-part"></div>
+    </div>
+
+    <!-- Bottom Blue Line -->
+    <div class="bottom-line"></div>
+</body>
+</html>
+
+
