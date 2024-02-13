@@ -1,0 +1,187 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: white;
+  }
+  
+  .myHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	padding: 6px;
+  
+  }
+  
+  .leftContent {
+	display: flex;
+	align-items: center;
+  }
+  
+  .rightContent {
+	display: flex;
+	align-items: center;
+  }
+  
+  .leftContent img {
+	margin-right: 10px;
+  }
+  
+  .myHeader h1 {
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+	letter-spacing: -1px;
+	font-weight: 600;
+	margin: 0;
+	font-size: 1.2rem;
+  
+  }
+  
+  .myHeader p {
+	margin: 0;
+	color: grey;
+  }
+  
+  .myHeader:hover p {
+	color: white;
+  }
+  
+  .follow {
+	display: inline-block;
+	font-size: 12px;
+	color: black;
+	padding: 2px 5px;
+	background-color: hsl(139.41deg, 58.62%, 54.51%);
+	border-radius: 2px;
+  }
+  
+  .follow:hover {
+	color: white;
+	background-color: forestgreen;
+  }
+  
+  .greyBtn {
+	background-color: hsl(227.37,12.26%,30.39%);
+	padding: 15px 15px 15px 15px  ;
+	border-radius: 5px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .greyBtn:hover{
+	background-color:  hsl(227.37,12.26%,60%);;
+  }
+  
+  .sidebar {
+	width: 400px;
+	background-color: black;
+	padding: 0;
+	position: fixed;
+	top: 53px;
+	margin-top: 8px;
+	right: 0;
+	bottom: 30px; 
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto; 
+  }
+  
+  .box {
+	flex: 1;
+	background-color: rgb(29,30,34);
+	margin-left: 12px;
+  }
+  
+  .box-header {
+	height: 40px;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+  }
+  
+  .myFooter {
+	background-color: rgb(44,48,58);
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+  }
+  
+  .footerButton{
+	background-color: rgb(68,72,87);
+	height: 30px;
+	color: white;
+	font-size: 12px;
+	background: rgb(68,72,87);
+	border: none;
+	margin: 1px;
+	border-radius: 5px;
+	outline: none;
+	padding: none;
+	box-shadow: none;
+  }
+  
+  .rightFooter {
+	float: right;
+  }
+  
+  .leftFooter,
+  .rightFooter {
+	display: flex;
+  }
+  
+  .leftFooter {
+	float: left;
+  }
+  
+  .square-btn {
+	border-radius: 4px;
+  }
+  
+  .greyBg{
+	background-color: rgb(29,30,34);
+	padding: 8px;
+	margin-right: 5px;
+	margin-top: 8px;
+	display:flex;
+  } 
+  
+  .smallIcon{
+	height: 20px;
+	width: 20px;
+	padding-right: 8px;
+  }
+  
+  
+  
+  .leftSideContent {
+	display: flex;
+	align-items: center;
+  }
+  
+  .rightSideContent {
+	margin-left: auto; /* Pushes the buttons to the right */
+	margin-right:10px;
+  }
+  
+  .smallButton {
+	background-color: rgb(68,72,87);
+	color: white;
+	border: none;
+	padding: 1px 10px;
+	border-radius: 3px;
+	margin-left: 1px; /* Adjust as needed */
+  }
+  
+  /* Adjustments to align text and icon */
+  .smallIcon {
+	height: 20px;
+	width: 20px;
+	padding-right: 8px;
+  }
+  /* hr.solid {
+	border-top: 0px solid black;
+	margin: 0;
+   
+  } */
